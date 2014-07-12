@@ -1,1 +1,3 @@
-This is the first develop file
+<?php 
+	echo 'This is the first develop file';
+?>
