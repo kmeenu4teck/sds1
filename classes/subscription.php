@@ -4,8 +4,8 @@ class Subscription{
 	protected function __construct(){
 		$this->subscriptionArray = 'subscription array';
 	}
-	public static function getStatus(){
-		return 'this is status return';
+	public static function getStatus($sid){
+		return 'this is status return'.' <--> '.$sid;
 	}
 }
 ?>
